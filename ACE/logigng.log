@@ -1,0 +1,154 @@
+2019-04-05 09:50:34 DEBUG MemberDao:32 - 2========================
+2019-04-05 09:50:34 DEBUG MemberDao:34 - 2========================
+2019-04-05 09:50:34 DEBUG MemberDao:48 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 09:55:59 DEBUG UserDao:32 - 2========================
+2019-04-05 09:55:59 DEBUG UserDao:34 - 2========================
+2019-04-05 09:55:59 DEBUG UserDao:213 - 1=query : 
+INSERT INTO kr_user (
+user_id,
+name,
+passwd,
+use_yn,
+levels,
+email, 
+reg_id,
+mod_id 
+) VALUES ( 
+?,
+?,
+?,
+?,
+?,
+?,
+?,
+? 
+)
+2019-04-05 10:01:25 DEBUG UserDao:32 - 2========================
+2019-04-05 10:01:25 DEBUG UserDao:34 - 2========================
+2019-04-05 10:01:25 DEBUG UserDao:199 - 1=query : 
+INSERT INTO kr_user (
+user_id,
+name,
+passwd,
+use_yn,
+levels,
+email, 
+reg_id,
+mod_id 
+) VALUES ( 
+?,
+?,
+?,
+?,
+?,
+?,
+?,
+? 
+)
+2019-04-05 10:01:46 DEBUG MemberDao:32 - 2========================
+2019-04-05 10:01:46 DEBUG MemberDao:34 - 2========================
+2019-04-05 10:01:46 DEBUG MemberDao:48 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 10:01:57 DEBUG MemberDao:32 - 2========================
+2019-04-05 10:01:57 DEBUG MemberDao:34 - 2========================
+2019-04-05 10:01:57 DEBUG MemberDao:49 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 10:03:36 DEBUG MemberDaoTest:33 - ============================
+2019-04-05 10:03:36 DEBUG MemberDaoTest:34 - 등록실패
+2019-04-05 10:03:36 DEBUG MemberDaoTest:35 - ============================
+2019-04-05 10:03:57 DEBUG MemberDao:32 - 2========================
+2019-04-05 10:03:57 DEBUG MemberDao:34 - 2========================
+2019-04-05 10:03:57 DEBUG MemberDao:49 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:04:34 DEBUG MemberDao:32 - 2========================
+2019-04-05 11:04:34 DEBUG MemberDao:34 - 2========================
+2019-04-05 11:04:34 DEBUG MemberDao:49 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:05:52 DEBUG MemberDao:32 - 2========================
+2019-04-05 11:05:52 DEBUG MemberDao:34 - 2========================
+2019-04-05 11:05:52 DEBUG MemberDao:49 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:07:24 DEBUG MemberDao:25 - 0=connection=oracle.jdbc.driver.T4CConnection@5f205aa
+2019-04-05 11:07:24 DEBUG MemberDao:49 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:07:24 DEBUG MemberDao:53 - 2.ps : oracle.jdbc.driver.OraclePreparedStatementWrapper@dc24521
+2019-04-05 11:07:24 DEBUG MemberDao:54 - 3.param : MemberVO [email=kys01@google.com, passwd=홍길동, name=1234]
+2019-04-05 11:07:24 DEBUG MemberDao:62 - 4.flag : 1
+2019-04-05 11:07:24 DEBUG MemberDaoTest:29 - ============================
+2019-04-05 11:07:24 DEBUG MemberDaoTest:30 - 등록성공
+2019-04-05 11:07:24 DEBUG MemberDaoTest:31 - ============================
+2019-04-05 11:12:18 DEBUG MemberDao:25 - 0=connection=oracle.jdbc.driver.T4CConnection@5f205aa
+2019-04-05 11:12:18 DEBUG MemberDao:49 - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:12:18 DEBUG MemberDao:53 - 2.ps : oracle.jdbc.driver.OraclePreparedStatementWrapper@dc24521
+2019-04-05 11:12:18 DEBUG MemberDao:54 - 3.param : MemberVO [email=kys01@google.com, passwd=홍길동, name=1234]
+2019-04-05 11:12:18 DEBUG MemberDao:65 - 2========================
+2019-04-05 11:12:18 DEBUG MemberDao:67 - 2========================
+2019-04-05 11:12:18 DEBUG MemberDaoTest:34 - ============================
+2019-04-05 11:12:18 DEBUG MemberDaoTest:35 - 등록실패
+2019-04-05 11:12:18 DEBUG MemberDaoTest:36 - ============================

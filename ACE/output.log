@@ -1,0 +1,154 @@
+2019-04-05 09:50:34,579 DEBUG [main] dao.MemberDao     (  DBConn.java:32)     - 2========================
+2019-04-05 09:50:34,581 DEBUG [main] dao.MemberDao     (  DBConn.java:34)     - 2========================
+2019-04-05 09:50:34,581 DEBUG [main] dao.MemberDao     (MemberDao.java:48)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 09:55:59,080 DEBUG [main] dao.UserDao       (  DBConn.java:32)     - 2========================
+2019-04-05 09:55:59,083 DEBUG [main] dao.UserDao       (  DBConn.java:34)     - 2========================
+2019-04-05 09:55:59,083 DEBUG [main] dao.UserDao       ( UserDao.java:213)     - 1=query : 
+INSERT INTO kr_user (
+user_id,
+name,
+passwd,
+use_yn,
+levels,
+email, 
+reg_id,
+mod_id 
+) VALUES ( 
+?,
+?,
+?,
+?,
+?,
+?,
+?,
+? 
+)
+2019-04-05 10:01:25,433 DEBUG [main] dao.UserDao       (  DBConn.java:32)     - 2========================
+2019-04-05 10:01:25,435 DEBUG [main] dao.UserDao       (  DBConn.java:34)     - 2========================
+2019-04-05 10:01:25,436 DEBUG [main] dao.UserDao       ( UserDao.java:199)     - 1=query : 
+INSERT INTO kr_user (
+user_id,
+name,
+passwd,
+use_yn,
+levels,
+email, 
+reg_id,
+mod_id 
+) VALUES ( 
+?,
+?,
+?,
+?,
+?,
+?,
+?,
+? 
+)
+2019-04-05 10:01:46,966 DEBUG [main] dao.MemberDao     (  DBConn.java:32)     - 2========================
+2019-04-05 10:01:46,968 DEBUG [main] dao.MemberDao     (  DBConn.java:34)     - 2========================
+2019-04-05 10:01:46,969 DEBUG [main] dao.MemberDao     (MemberDao.java:48)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 10:01:57,932 DEBUG [main] dao.MemberDao     (  DBConn.java:32)     - 2========================
+2019-04-05 10:01:57,934 DEBUG [main] dao.MemberDao     (  DBConn.java:34)     - 2========================
+2019-04-05 10:01:57,934 DEBUG [main] dao.MemberDao     (MemberDao.java:49)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 10:03:36,768 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:33)     - ============================
+2019-04-05 10:03:36,768 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:34)     - 등록실패
+2019-04-05 10:03:36,768 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:35)     - ============================
+2019-04-05 10:03:57,038 DEBUG [main] dao.MemberDao     (  DBConn.java:32)     - 2========================
+2019-04-05 10:03:57,038 DEBUG [main] dao.MemberDao     (  DBConn.java:34)     - 2========================
+2019-04-05 10:03:57,038 DEBUG [main] dao.MemberDao     (MemberDao.java:49)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:04:34,215 DEBUG [main] dao.MemberDao     (  DBConn.java:32)     - 2========================
+2019-04-05 11:04:34,217 DEBUG [main] dao.MemberDao     (  DBConn.java:34)     - 2========================
+2019-04-05 11:04:34,217 DEBUG [main] dao.MemberDao     (MemberDao.java:49)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:05:52,062 DEBUG [main] dao.MemberDao     (  DBConn.java:32)     - 2========================
+2019-04-05 11:05:52,064 DEBUG [main] dao.MemberDao     (  DBConn.java:34)     - 2========================
+2019-04-05 11:05:52,064 DEBUG [main] dao.MemberDao     (MemberDao.java:49)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:07:24,573 DEBUG [main] dao.MemberDao     (  DBConn.java:25)     - 0=connection=oracle.jdbc.driver.T4CConnection@5f205aa
+2019-04-05 11:07:24,574 DEBUG [main] dao.MemberDao     (MemberDao.java:49)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:07:24,620 DEBUG [main] dao.MemberDao     (MemberDao.java:53)     - 2.ps : oracle.jdbc.driver.OraclePreparedStatementWrapper@dc24521
+2019-04-05 11:07:24,620 DEBUG [main] dao.MemberDao     (MemberDao.java:54)     - 3.param : MemberVO [email=kys01@google.com, passwd=홍길동, name=1234]
+2019-04-05 11:07:24,646 DEBUG [main] dao.MemberDao     (MemberDao.java:62)     - 4.flag : 1
+2019-04-05 11:07:24,649 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:29)     - ============================
+2019-04-05 11:07:24,649 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:30)     - 등록성공
+2019-04-05 11:07:24,649 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:31)     - ============================
+2019-04-05 11:12:18,463 DEBUG [main] dao.MemberDao     (  DBConn.java:25)     - 0=connection=oracle.jdbc.driver.T4CConnection@5f205aa
+2019-04-05 11:12:18,467 DEBUG [main] dao.MemberDao     (MemberDao.java:49)     - 1=query : 
+INSERT INTO member (
+memail,
+mpasswd,
+mname 
+) VALUES ( 
+?,
+?,
+? 
+)
+2019-04-05 11:12:18,515 DEBUG [main] dao.MemberDao     (MemberDao.java:53)     - 2.ps : oracle.jdbc.driver.OraclePreparedStatementWrapper@dc24521
+2019-04-05 11:12:18,515 DEBUG [main] dao.MemberDao     (MemberDao.java:54)     - 3.param : MemberVO [email=kys01@google.com, passwd=홍길동, name=1234]
+2019-04-05 11:12:18,521 DEBUG [main] dao.MemberDao     (MemberDao.java:65)     - 2========================
+2019-04-05 11:12:18,522 DEBUG [main] dao.MemberDao     (MemberDao.java:67)     - 2========================
+2019-04-05 11:12:18,524 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:34)     - ============================
+2019-04-05 11:12:18,524 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:35)     - 등록실패
+2019-04-05 11:12:18,524 DEBUG [main] test.MemberDaoTest (MemberDaoTest.java:36)     - ============================
